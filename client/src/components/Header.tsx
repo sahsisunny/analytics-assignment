@@ -3,8 +3,8 @@ import Link from "next/link";
 import useAuthenticated from "@/hooks/useAuthenticated";
 import { API_BASE_URL } from "@/constants";
 import axios from "axios";
-import LoginModal from "../modal/LoginModal";
-import SignupModal from "../modal/SignupModal";
+import LoginModal from "./LoginModal";
+import SignupModal from "./SignupModal";
 import { useState } from "react";
 
 function Header() {
