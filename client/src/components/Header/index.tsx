@@ -3,7 +3,7 @@ import Link from "next/link";
 import useAuthenticated from "@/hooks/useAuthenticated";
 import { API_BASE_URL } from "@/constants";
 import axios from "axios";
-import LoginModal from "@/components/modal/signin";
+import LoginModal from "../modal/signin";
 import { useState } from "react";
 import SignupModal from "../modal/signup";
 

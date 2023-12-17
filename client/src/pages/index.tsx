@@ -1,5 +1,5 @@
-import Layout from "@/components/layout";
-import BarChart from "@/components/chart/HorizontalBarChart";
+import Layout from "../components/layout";
+import BarChart from "../components/chart/HorizontalBarChart";
 import Chart from 'chart.js/auto';
 import {CategoryScale} from 'chart.js'; 
 Chart.register(CategoryScale);
