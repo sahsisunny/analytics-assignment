@@ -3,9 +3,9 @@ import Link from "next/link";
 import useAuthenticated from "@/hooks/useAuthenticated";
 import { API_BASE_URL } from "@/constants";
 import axios from "axios";
-import LoginModal from "@/components/Modal/signin";
+import LoginModal from "@/components/modal/signin";
 import { useState } from "react";
-import SignupModal from "../Modal/signup";
+import SignupModal from "../modal/signup";
 
 function Header() {
   const [showLoginModal, setShowLoginModal] = useState<boolean>(false);
