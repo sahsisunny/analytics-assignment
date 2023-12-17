@@ -17,3 +17,7 @@
 
 # modules
 /node_modules
+
+
+# env
+.env
